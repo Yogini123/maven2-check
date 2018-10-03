@@ -9,11 +9,11 @@
   <name>maven2</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>MUDU-PC-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release</url>
-    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>CV-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 
   <dependencies>
